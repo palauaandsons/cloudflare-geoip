@@ -1,0 +1,42 @@
+{
+	"name": "palauaandsons/cloudflare-geoip",
+	"description": "Cloudflare GeoIP helper with Laravel",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Desmond",
+			"email": "hi@malico.me"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"PalauaAndSons\\CloudflareGeoIp\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"PalauaAndSons\\CloudflareGeoIp\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+		"illuminate/http": "^9.0|^10.0",
+		"illuminate/support": "^9.0|^10.0"
+	},
+	"require-dev": {
+		"laravel/pint": "^1.13",
+		"orchestra/testbench": "^8.0",
+		"phpunit/phpunit": "^10.4"
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"PalauaAndSons\\CloudflareGeoIp\\CloudflareGeoIpServiceProvider"
+			]
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"sort-packages": true
+	}
+}
