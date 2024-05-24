@@ -1,0 +1,6 @@
+# Ignore the following files and directories when exporting
+/tests          export-ignore
+/testbench.yaml export-ignore
+/pint.json      export-ignore
+/.gitignore     export-ignore
+/phpunit.xml    export-ignore
