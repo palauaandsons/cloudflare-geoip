@@ -29,9 +29,10 @@ class Location
         //
     }
 
-    public function __get($name)
+    public function __get(string $name): mixed
     {
         $replications = [
+            'ipAddress'   => 'ip',
             'iso_code'    => 'country',
             'isoCode'     => 'country',
             'state'       => 'regionCode',

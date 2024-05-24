@@ -6,7 +6,7 @@ migrations:
 seeders:
 
 workbench:
-  start: '/'
+  start: "/"
   install: true
   discovers:
     web: true

@@ -22,5 +22,4 @@ return [
         'timezone'     => 'Europe/Madrid',
         'continent'    => 'EU',
     ],
-    
 ];
