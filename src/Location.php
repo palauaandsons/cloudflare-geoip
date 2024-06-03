@@ -17,7 +17,7 @@ class Location
     public function __construct(
         public readonly string $ip,
         public readonly string $country,
-        public readonly ?string $city,
+        public readonly ?string $city = null,
         public readonly ?string $continent = null,
         public readonly ?float $latitude = null,
         public readonly ?float $longitude = null,
